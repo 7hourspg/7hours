@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @7hours
 - 👀 I’m interested in programming
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
+- 🌱 I’m currently learning web development
 - 📫 How to reach me rajiv840704@gmail.com
 
 <!---
