@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @7hours
-- 👀 I’m interested in programming
+- 👀 I’m a programmer
 - 🌱 I’m currently learning web development
 - 📫 How to reach me rajiv840704@gmail.com
 
