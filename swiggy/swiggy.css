@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.margin-right {
+    font-size: 1.5rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header .location-text .p {
+    border-bottom: 2px solid black;
+    font-weight: 720;
+    font-size: 1.35rem;
+    margin-right: auto;
+}
+
+.location-text {
+    display: flex;
+    align-items: flex-start;
+    margin-right: auto;
+}
+
+.location-text .p2 {
+    font-size: 1.32rem;
+    margin-left: .6rem;
+    color: #333;
+}
+
+.location-text .p2 .fa-circle-chevron-down {
+    color: #FC8019;
+}
+
+header nav .logo {
+    margin-right: 3rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px black solid;
+    justify-content: space-between;
+    min-width: 1200px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    list-style: none;
+    padding-left: 6.4rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+header nav ul :hover {
+    color: #FC8019;
+}
+
+
+/* header-container */
+
+.header-container {
+    background-color: #171a29;
+    margin-bottom: 4rem;
+}
+
+.header-container .box-container {
+    max-width: 1200px;
+    min-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    height: 340px;
+    align-items: center;
+    background-color: inherit;
+}
+
+.header-container .box-container .box {
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-container .box-container .box img {
+    transition: transform .5s cubic-bezier(.215, .61, .355, 1);
+}
+
+.header-container .box-container .box img:hover {
+    transform: scale(1.1);
+}
+
+.header-container .box-container button {
+    position: absolute;
+    right: 195px;
+    top: 230px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 2rem;
+}
+
+
+/* rest-container */
+
+.rest-container {
+    min-width: 1300px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rest-container nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.rest-container .rest-deatail {
+    font-size: 2.6rem;
+}
+
+.rest-container nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.rest-container nav ul li {
+    list-style: none;
+}
+
+.rest-container nav ul li a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 4rem;
+    font-size: 1.6rem;
+}
+
+.rest-container nav ul li .font-weight {
+    font-weight: 600;
+    margin-right: 4rem;
+}
+
+.rest-container nav ul li .font-weight:hover {
+    color: #FC8019;
+}
+
+.rest-container nav ul li .fa-pencil {
+    color: #FC8019;
+    padding: 1rem;
+    position: absolute;
+    border: 1px solid #FC8019;
+    border-radius: 50%;
+    margin-left: -3rem;
+}
+
+
+/* .containerkk */
+
+.container1 {
+    max-width: 1300px;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 3.5rem 0;
+}
+
+.container1 .box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 .box-container .box {
+    padding: 20px 15px;
+    width: 300px;
+    overflow: hidden;
+    transition: transform .5s cubic-bezier(.215, .61, .355, 1);
+}
+
+.container1 .box-container .box:hover {
+    transform: scale(1.1);
+}
+
+.container1 .box-container .box .ptr {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.container1 .box-container .box h3 {
+    font-size: 1.5rem;
+}
+
+.container1 .box-container .box p {
+    font-size: 1.3rem;
+}
+
+.container1 .box-container .box .ptr li {
+    font-size: 1.2rem;
+}
+
+.container1 .box-container .box .ptr button {
+    border-style: none;
+    background-color: #FC8019;
+    color: white;
+    padding: .2rem .5rem;
+}
+
+.container1 .box-container .box:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container1 .box-container .box .off {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #8a584b;
+}
+
+.container1 .box-container .box .display-none {
+    font-weight: 700;
+    color: rgb(64, 64, 231);
+    text-align: center;
+    visibility: hidden;
+}
+
+.container1 .box-container .box:hover .display-none {
+    visibility: visible;
+}
+
+.container1 .box-container .box .pading {
+    padding: 1rem 0;
+}
