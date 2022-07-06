@@ -1,0 +1,287 @@
+body {
+    margin: auto;
+    display: block;
+}
+
+.contant-bar {
+    background-color: #1ebea5;
+    height: 90px;
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+}
+
+.bar-list {
+    list-style: none;
+    display: flex;
+    margin-left: 8%;
+    padding-top: 9px;
+    text-decoration: none;
+}
+
+.icon {
+    width: 40px;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 3px;
+    padding-top: 10px;
+}
+
+.right-text {
+    list-style: none;
+    display: flex;
+}
+
+.bar-text {
+    margin-left: 50px;
+}
+
+.right {
+    margin-left: 150px;
+}
+
+.text {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.botton {
+    width: 90px;
+    height: 60px;
+    background-color: #1ebea5;
+    border-color: #1ebea5;
+    border-bottom: #1ebea5;
+    border-right: #1ebea5;
+}
+
+.botton-bar {
+    margin-top: -18px;
+    margin-left: 50px;
+}
+
+.img-earth {
+    width: 21px;
+    padding-top: 8px;
+    color: white;
+    display: inline;
+}
+
+#contant {
+    height: 800px;
+}
+
+.contant-body {
+    float: left;
+    padding-top: 20%;
+    margin-left: 20%;
+}
+
+.body-text {
+    font-size: 33px;
+    font-weight: 300px;
+    line-height: 35px;
+    margin-bottom: 24px;
+}
+
+.body-para {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 12px;
+    opacity: .78;
+}
+
+.body-para2 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 24px;
+    opacity: .1px;
+}
+
+.body-logo {
+    margin-left: -40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo-link {
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: #1ebea5;
+}
+
+.img-link {
+    margin-top: 5px;
+    display: inline;
+}
+
+.logo-text {
+    margin-top: -10px;
+}
+
+.body-image {
+    float: right;
+    margin-top: 10%;
+    margin-right: 18%;
+}
+
+.phone-img {
+    height: 650px;
+    width: 390px;
+}
+
+#center-body {
+    height: 755px;
+}
+
+.contant-down {
+    float: left;
+    height: 700px;
+    text-align: center;
+    width: 49.2%;
+    background-color: rgb(220, 240, 255);
+    padding-top: 55px;
+}
+
+.down-header {
+    font-size: 25px;
+}
+
+.para-d {
+    text-decoration: none;
+}
+
+.paragraph {
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.img-d {
+    padding-top: 35px;
+    height: 405px;
+}
+
+.contant-down-right {
+    float: right;
+    height: 755px;
+    width: 49.2%;
+    background-color: rgb(230, 245, 240);
+    text-align: center;
+}
+
+.text-right {
+    margin-top: 70%;
+}
+
+.top-para {
+    font-size: 13px;
+}
+
+.right-header {
+    font-size: 27px;
+    margin-top: -7px;
+    margin-bottom: 25px;
+}
+
+.down-paragraph {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+#features-body {
+    height: 200px;
+    text-align: center;
+}
+
+.features {
+    padding-top: 5%;
+}
+
+.features-link {
+    text-decoration: none;
+    color: #1cb39b;
+    border: 2px solid #77d7c8;
+    border-radius: 40px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .071em;
+    line-height: 19px;
+    padding: 18px 32px 18px 32px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+#footer {
+    height: 330px;
+    background-color: #232f3c;
+}
+
+.center-footer {
+    display: flex;
+    color: rgba(255, 255, 255, .6);
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.c-footer {
+    width: 20%;
+    float: left;
+}
+
+.h-footer {
+    color: rgba(255, 255, 255, .6);
+    font-size: 12px;
+    font-weight: 600px;
+    line-height: 14px;
+    margin-bottom: 22px;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, .6);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.f-list {
+    line-height: normal;
+    list-style-type: none;
+    list-style: none;
+}
+
+.f-element {
+    margin-bottom: 6px;
+}
+
+.f-text {
+    color: #fff;
+    text-decoration: none;
+}
+
+.down-footer {
+    background-color: #282839;
+    display: flex;
+    margin-top: 35px;
+    padding-left: 140px;
+    height: 50px;
+    padding-top: 30px;
+}
+
+.last-footer {
+    color: rgba(255, 255, 255, .6);
+}
+
+.l-footer {
+    margin-left: 16%;
+    color: #fff;
+}
