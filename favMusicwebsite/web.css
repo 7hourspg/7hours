@@ -1,0 +1,196 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+}
+
+body {
+      overflow-x: hidden;
+}
+
+
+
+header {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      background-color: black;
+
+}
+
+nav {
+      margin-top: 20px;
+}
+
+nav ul li {
+      display: inline-block;
+
+}
+
+.dts {
+      margin-right: 10px;
+}
+
+.sze {
+      font-size: 20px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      margin-left: 60px;
+      color: white;
+}
+
+a:hover {
+      color: red;
+}
+
+.red {
+      color: red;
+}
+
+.typing {
+      position: fixed;
+      margin-left: 400px;
+      margin-top: 40px;
+}
+
+
+
+.typed {
+      color: red;
+
+}
+
+.contain {
+      margin-top: 40px;
+      width: 900px;
+      background: rgb(237, 228, 212);
+      transform: translateX(30%);
+      height: 300px;
+      border-top-left-radius: 168px 147px;
+      border-bottom-left-radius: 168px 147px;
+      border: 1px solid black;
+      display: flex;
+      overflow: hidden;
+
+}
+
+.myself img {
+      border-radius: 50%;
+      width: 300px;
+      border: 1px solid black;
+
+}
+
+.text {
+      transform: translateY(100px);
+      width: 500px;
+      font-family: cursive;
+      margin-left: 100px;
+      margin-top: 30px;
+}
+
+.center {
+      transform: translateX(40px);
+      margin-top: 50px;
+}
+
+.music {
+      margin-left: 30px;
+}
+
+.music1 {
+      margin-left: 30px;
+}
+
+.music2 {
+      margin-left: 30px;
+}
+
+.music3 {
+      margin-left: 30px;
+}
+
+.music4 {
+      margin-left: 30px;
+}
+
+.music5 {
+      margin-left: 30px;
+}
+
+.card {
+      display: inline-block;
+      height: 200px;
+      margin-left: 40px;
+      margin-top: 20px;
+
+}
+
+#btn-back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      border-radius: 50%;
+      border: 1px solid red;
+      background: #ebebeb;
+}
+
+@media screen and (max-width:450px) {
+      header {
+            font-size: 15px;
+            width: 480px;
+      }
+
+      nav ul li a {
+            margin-left: 15px;
+      }
+
+      .contain {
+            width: 300px;
+            transform: translateX(40px);
+            height: auto;
+            border-top-right-radius: 168px 147px;
+            border-bottom-right-radius: 168px 147px;
+
+
+      }
+
+      .myself img {
+            width: 100px;
+      }
+
+      .text {
+            display: none;
+      }
+
+      .typing h1 {
+            font-size: 20px;
+      }
+
+      .typing {
+            width: auto;
+            margin-left: 105px;
+
+      }
+
+      .typed {
+            font-size: 20px;
+      }
+
+      #btn-back-to-top {
+
+            right: -50px;
+            display: none;
+
+      }
+
+      body {
+            overflow-x: hidden;
+            overflow-wrap: normal;
+      }
+
+}
