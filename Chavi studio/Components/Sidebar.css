@@ -1,0 +1,46 @@
+.containere {
+    /* background-color: #004962; */
+    /* background-color: rgb(120, 74, 74); */
+    height: calc(100vh );
+  
+    position:fixed;
+    right: 0;
+    top: 0;
+    transition: width .5s;
+    z-index: 1;
+  }
+   .togglebtn{
+    position: absolute;
+    margin-top: 1rem;
+    right: 0.5rem;
+    /* background-color: #004962; */
+    /* background-color: rgb(120, 74, 74); */
+    color: white;
+    border: none;
+    font-size: 2rem;
+  }
+  .box1 {
+    display: flex;
+    height: 4rem;
+    margin-top: 1rem;
+  }
+  
+  .menu_box {
+    padding-left: .6rem;
+    display: none;
+  }
+  .menu_box a{
+    text-decoration: none;
+  }
+  .box-common{
+  margin-bottom: 1rem ;
+  border-bottom: 2px solid #4d2216;
+  }
+  .menu_box p{
+      padding-left: 1em;
+  }
+  .menu_box .box1 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  

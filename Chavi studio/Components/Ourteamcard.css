@@ -1,0 +1,233 @@
+
+body{
+  background-color: black !important;
+}
+.card_mainbox{
+  background-color: black !important;
+  color: white;
+}
+.text_center{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: black !important;
+  }
+  .m_top{
+    margin-top: 3rem;
+   
+  }
+  
+  .container {
+  
+    width: 80rem;
+    height: 40rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+   
+  }
+  .box_c {
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    /* background-color: rgba(161, 160, 160, 0.169); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+  .profile_img {
+    margin: 3rem 0 1rem 0;
+    overflow: hidden;
+    border-radius: 50%;
+    background-image: url('../Images/profile.png');
+    width: 160px;
+    height: 160px;
+    background-position: center;
+    background-size: contain;
+   
+  }
+  .profile_img2 {
+    margin: 3rem 0 1rem 0;
+    overflow: hidden;
+    border-radius: 50%;
+    background-image: url('../Images/profile\ 2.png');
+    width: 160px;
+    height: 160px;
+    background-position: center;
+    background-size: contain;
+   
+  }
+  .profile_img .img {
+    /* border-radius: 10px; */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+  }
+
+  .name {
+    margin-top: 1rem;
+  }
+  .name .nm_btn{
+    padding: 0.5rem 1.3rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px ;
+  }
+  
+  .skill_detail {
+    width: 350px;
+    margin-top: 1rem;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    padding: 0 .5rem;
+
+   
+  }
+  .view_profbtn .p_btn {
+    padding: 0.7rem 1.3rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    font-weight: 500;
+  }
+  .pbtn_mtop{
+    margin-top: 1.5rem;
+  }
+  .view_profbtn:hover .p_btn {
+    background-image: linear-gradient(
+      to bottom right,
+      rgb(255, 0, 217),
+      rgb(255, 89, 0)
+    );
+    color: black;
+  }
+  
+  
+  /* responsive card */
+  @media (max-width: 1000px) {
+    .container {
+      width: 40rem;
+      height: 65rem;
+      flex-direction: column;
+      justify-content: space-between;
+      
+    }
+    .box_c {
+      width: 350px;
+      height: 500px;
+    }
+    .name {
+      margin-top: .5rem;
+    }
+   
+    .profile_img {
+      margin: 2rem 0 1rem 0;
+      
+    }
+  
+    .skill_btn .nm_btn{
+      margin-top: .5rem;
+      font-weight: normal;
+    }
+  }
+  /* @media (max-width: 700px){
+    .box_c {
+      width: 250px;
+      height: 500px;
+    }
+    .profile_img {
+      margin: .5rem 0 .5rem 0;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+    .profile_img .img {
+     
+      width: 130px;
+      height: 130px;
+     
+    }
+    .skill_detail {
+      width: 230px;src/Components/Ourteamcard.css
+      margin-top: .5rem;  
+    }
+    .skill_btn .nm_btn{
+      font-size: .7rem;
+    }
+    .view_profbtn .p_btn {
+      margin-top: .5rem;
+      padding: 0.6rem 1rem;
+      font-size: .7rem;
+      
+      
+    }
+    .name .nm_btn{
+      font-size: .7rem;
+    }
+  } */
+  
+  @media (max-width: 600px){
+  .container{
+    width: 20rem;
+    height: 60rem;
+  
+    justify-content: space-between;
+   
+  }
+  .box_c {
+    width: 270px;
+    height: 450px;
+  }
+  .profile_img{
+    width: 120px;
+    height: 120px;
+    margin: 2rem 0 .5rem 0;
+  }
+  .profile_img2{
+    margin: 2rem 0 .5rem 0;
+    width: 120px;
+    height: 120px;
+  }
+  .skill_detail{
+    width: 250px;
+  }
+  .skill_detail p{
+    font-size: .9rem;
+  }
+  .name .nm_btn{
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: .8rem;
+   
+    border-radius: 10px ;
+  }
+  .view_profbtn .p_btn {
+    font-size: .8rem;
+  
+  }
+  .mtp{
+    margin-top: 1rem;
+  }
+  .mbt{
+    margin-bottom:2rem;
+  }
+  .pbtn_mtop{
+    margin-top: 2.2rem;
+  }
+  
+  
+  }
+
+

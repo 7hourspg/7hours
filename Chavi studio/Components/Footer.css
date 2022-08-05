@@ -1,0 +1,93 @@
+.foot_container {
+    width: 100vw;
+    height: 10rem;
+    background-color: black;
+    border-top: 2px solid red;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .m_from_lft_rt {
+    margin: 0 5rem;
+  }
+  .foot_box1 {
+    font-size: 1.2rem;
+    color: white;
+  }
+.contact_dtl{
+  color: white;
+  text-align: center;
+  
+}
+.contact_dtl .mrt{
+  margin-right: .5rem;
+  display: inline;
+}
+
+
+
+
+
+
+
+  .foot_box2 {
+    font-size: 2rem;
+   
+  }
+  .foot_box2 li {
+    list-style: none;
+    display: inline;
+    margin-left: 1rem;
+  
+    
+  }
+ 
+  .foot_box2 .l2{
+      color: rgb(0, 157, 255);
+  }
+  .foot_box2 .l3 {
+      color: rgb(0, 157, 255);
+  }
+  .foot_box2 .l1,a {
+    color: rgb(255, 0, 144);
+    text-decoration: none;
+    
+  }
+  .foot_box2 .l4 {
+    color: rgb(231, 53, 53);
+  }
+  .l1:hover {
+    color: white;
+  }
+  .l2:hover {
+    color: white;
+  }
+  
+  .l3:hover {
+    color: white;
+  }
+  
+  .l4:hover {
+    color: white;
+  }
+  
+  @media(max-width:1190px){
+   
+     .foot_container{
+      height: 15rem;
+     }
+  }
+  @media(max-width:780px){
+    .foot_box1 {
+      font-size: 1rem;
+      color: white;
+    }
+    .contact_dtl{
+      font-size: .9rem;
+    }
+    .foot_box2 {
+      font-size: 1.5rem;
+    }
+   
+  }

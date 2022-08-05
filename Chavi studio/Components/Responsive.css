@@ -1,0 +1,69 @@
+@media (max-width:800px){
+    .box_container .box .bx_h1{
+        font-size: 7rem;
+        line-height: 8rem;
+        margin-left: -10px;
+       
+    }
+    .box_container .box h2{
+        text-align: center  ;
+        font-size: 1.5rem;
+        
+        
+    }
+}
+
+@media (max-width:500px){
+    .landingbox {
+        
+       min-height: 70vh;
+       overflow: hidden;
+       width: 100vw;
+       
+     }
+ 
+     .box_container .box {  
+        margin-top: 10rem; 
+        text-align: center;
+
+    }
+
+    .box_container .box .bx_h1{
+        font-size: 5rem;
+        line-height: 5rem;
+    
+    }
+    .box_container .box h2{
+        font-size: 1rem;
+            
+    }
+    .box_container .box .orderbtn{
+      background-color: red;
+      color: white;
+    }
+    .logo {
+        width: 50px;
+      }
+
+}
+
+/* SIDEBAR  */
+@media (max-width:600px){
+  .box1{
+    margin-top: 2rem;
+  }
+  .text_center{
+    background-color: rgb(219, 189, 189);
+  }
+   .togglebtn{
+    font-size: 1.5rem;
+    right: 0.9rem;
+   }
+   .box-common{
+    
+    border-bottom: 1px solid #2d697d;
+    }
+    .box1{
+        height: 3rem;
+    }
+}

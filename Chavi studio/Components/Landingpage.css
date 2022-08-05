@@ -1,0 +1,91 @@
+.landingbox {  
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  
+  color: white;
+  background-color: black;
+}
+.logo {
+  width: 80px;
+  margin-left: 1.5rem;
+}
+.box_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 5rem;
+}
+.box_container .box { 
+  width: 50vw; 
+    margin-top: 7rem; 
+    text-align: center;
+    
+}
+.box_container .box .bx_h1{
+    font-size: 13rem;
+    line-height: 13rem;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke:4px white;
+    background-image: url('../Images/pattern\ 5.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+.box_container .lnd_box2{
+  width: 40vw;
+  margin-top: 5rem;
+ 
+  overflow: hidden;
+}
+.box_container .lnd_box2 img{
+  width: 100%;
+
+}
+@keyframes back{
+    100%{
+          background-position: 2000px 0;
+    }
+}
+.box_container .box h2{
+    text-align: center  ;
+    color:white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.box_container .box .orderbtn{
+    text-align: center; 
+    margin-top: 2rem;
+    background-color:white;
+    color: black;
+    font-size: 1rem;
+    border: none;
+    padding:.8rem 1.5rem;
+    border-radius: 8px ;
+ 
+}
+.box_container .box .orderbtn:hover{
+    background-color:red;
+    color: white;
+    transition: color .3s ease-in-out;
+}
+@media(max-width:1200px){
+  .box_container{
+    flex-direction: column;
+    margin-left: 0;
+    
+  }
+  .box_container .box { 
+    width: 100vw; 
+      margin-top: 7rem; 
+      text-align: center;
+      
+  }
+  .lnd_box2{
+    display: none;
+  }
+  
+}

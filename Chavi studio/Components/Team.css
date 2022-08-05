@@ -1,0 +1,16 @@
+.abt_cntr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+}
+.abt_box{
+    text-align: center;
+
+}
+.abt_box h1{
+    color: 
+    red;
+    font-size: 4rem;
+}
